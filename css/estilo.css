@@ -1,0 +1,65 @@
+body {
+	background: black;
+	color: white;
+}
+
+header{
+	height: 150px;
+}
+
+#menu a{
+	background: orange;
+	padding: 5px;
+}
+
+nav{
+	text-align: center;
+}
+
+#contenido article{
+	width: 46%;
+	float: left;
+	margin: 1%;
+	border: 1px solid white;/*Shorthands*/
+	padding: .5%
+}
+
+.ocultar{display: none;}
+
+#iconoPDF{
+	list-style-image: url(../img/ico-pdf.jpg);
+}
+
+#iconoWORD{
+	list-style-image: url(../img/ico-word.jpg);
+}
+#iconoZIP{
+	list-style-image: url(../img/ico-zip.jpg);
+}
+
+#iconoJPG{
+	list-style-image: url(../img/ico-jpg.jpg);
+}
+.descargas{
+	clear: both;
+	color: black;
+	background: white;
+	margin: 1%;
+	width: 98%;
+	height: 150px
+}
+
+.descargas-lista{
+	margin: 40%;
+}
+
+.icoFacebook{
+	list-style-image: url(../img/face.jpg);
+}
+
+.icoTwitter{
+	list-style-image: url(../img/twitter.jpg);
+}
+#redes-sociales{
+	margin: 1%;
+}

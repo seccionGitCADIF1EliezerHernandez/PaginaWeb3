@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es"><!-- no tenia el idioma seleccionado-->
+<head>
+	<meta charset="utf-8"/>
+	<title>CADIF1</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+</head>
+<body>
+	<div id="contenedor">
+		<header id="encabezado">
+			<figure>
+				<a href="index.html">
+					<img src="img/logo.png">
+				</a>
+			</figure>
+			<nav id="menu">
+				<a href="html5.html">HTML5</a>
+				<a href="CSS3.html">CSS3</a>
+				<a href="javaScript.html">Javascript</a>
+				<a href="JQUERY.html">JQUERY</a>
+			</nav>
+		</header>
+		<section id="presentacion">
+			<h1>Curso profesional de paginas web</h1>
+		</section>
+		<section id="contenido">
+			<h6 class="ocultar">Contenido Relevante de la Web</h6><!--La W3C indica que dentro de un section debe existir una etiqueta de enunciado, por lo que recomiendan emplear desde h2 hasta h6 para estas situaciones-->
+			<article class="articulo"><!--ERROR: Selector id: este solo puede emplearse para orientar un solo elemento a la vez; ya existian otros selectores id con el mismo valor de atributo en el codigo HTML,SOLUCION: cambie el selector id por un selector class en esta etiqueta ya que estos pueden utilizarse para darle el mismo estilo a un conjunto de elementos-->
+				<h2>JQUERY</h2>
+
+				<p><strong>jQuery</strong> es una biblioteca de JavaScript, creada inicialmente por John Resig, que permite simplificar la manera de interactuar con los documentos HTML, manipular el árbol DOM, manejar eventos, desarrollar animaciones y agregar interacción con la técnica AJAX a páginas web. Fue presentada el 14 de enero de 2006 en el BarCamp NYC. jQuery es la biblioteca de JavaScript más utilizada.</p>
+
+				<p>Query es software libre y de código abierto, posee un doble licenciamiento bajo la Licencia MIT y la Licencia Pública General de GNU v2, permitiendo su uso en proyectos libres y privativos.2 jQuery, al igual que otras bibliotecas, ofrece una serie de funcionalidades basadas en JavaScript que de otra manera requerirían de mucho más código, es decir, con las funciones propias de esta biblioteca se logran grandes resultados en menos tiempo y espacio.</p>
+
+				<p>Las empresas Microsoft y Nokia anunciaron que incluirán la biblioteca en sus plataformas.3 Microsoft la añadirá en su IDE Visual Studio4 y la usará junto con los frameworks ASP.NET AJAX y ASP.NET MVC, mientras que Nokia los integrará con su plataforma Web Run-Time.</p>
+			</article>
+		</section>
+		<footer id="pie-pagina">
+			<aside id="redes-sociales">
+				<a href="https://twitter.com/EliezerSam93?lang=es" target="_blank">
+					<img src="img/twitter.jpg">
+				</a>
+				<a href="https://www.facebook.com/eliezersamuel" target="_blank">
+					<img src="img/face.jpg">
+				</a>					
+			</aside><!--cambie de lugar este elemento ya que se encontraba bajo el mensaje de pagina "Todos los derechos reservaodos..."-->
+			<p>Todos los derechos reservados. CADIF1</p><!--cambie la etiqueta span por p-->
+		</footer>
+	</div>
+</body>
+</html>
