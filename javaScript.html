@@ -23,23 +23,75 @@
 			</nav>
 		</header>
 		<section id="presentacion">
-			<h1>Curso profesional de paginas web</h1>
+			<h1>JavaScript</h1>
 		</section>
 		<div>
 			<h2>Indice</h2>
 			<ol>
 				<li>
+					<a href="#concepto">Concepto</a>
+				</li>
+				<li>
 					<a href="#historia">Historia</a>
+					<ol>
+						<li>
+							<a href="#nacimiento">Nacimiento de JavaScript</a>
+						</li>
+						<li>
+							<a href="#servidor">JavaScript en el lado servidor</a>
+						</li>
+						<li>
+							<a href="#desarrollos">Desarrollos posteriores</a>
+						</li>
+					</ol>
 				</li>
 				<li>
 					<a href="#caracteristicas">Caracteristicas</a>
+					<ol>
+						<li>
+							<a href="#impeestru">Imperativo y estructurado</a>
+						</li>
+						<li>
+							<a href="#dinamico">Dinámico</a>
+							<ol>
+								<li>
+									<a href="#tipadoDinamico">Tipado dinámico</a>
+								</li>
+								<li>
+									<a href="#objetual">Objetual</a>
+								</li>
+								<li>
+									<a href="#evaluaEjecu">Evaluación en tiempo de ejecución</a>
+								</li>
+							</ol>
+						</li>
+						<li>
+							<a href="#funcional">Funcional</a>
+							<ol>
+								<li>
+									<a href="#funcionalP">Funciones de primera clase</a>
+								</li>
+							</ol>
+						</li>
+						<li>
+							<a href="#prototipico">Prototípico</a>
+							<ol>
+								<li>
+									<a href="#prototipos">Prototipos</a>
+								</li>
+								<li>
+									<a href="#funciones">Funciones como constructores de objetos</a>
+								</li>
+							</ol>
+						</li>
+					</ol>
 				</li>
 			</ol>
 		</div>
 		<section id="contenido">
 			<h6 class="ocultar">Contenido Relevante de la Web</h6><!--La W3C indica que dentro de un section debe existir una etiqueta de enunciado, por lo que recomiendan emplear desde h2 hasta h6 para estas situaciones-->
 			<article class="articulo"><!--ERROR: Selector id: este solo puede emplearse para orientar un solo elemento a la vez; ya existian otros selectores id con el mismo valor de atributo en el codigo HTML,SOLUCION: cambie el selector id por un selector class en esta etiqueta ya que estos pueden utilizarse para darle el mismo estilo a un conjunto de elementos-->
-				<h2>JavaScript</h2>
+				<h2 id="concepto">Concepto</h2>
 
 				<p><strong>JavaScript</strong> es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos,3 basado en prototipos, imperativo, débilmente tipado y dinámico.</p>
 
@@ -50,10 +102,10 @@
 				<p>Todos los navegadores modernos interpretan el código JavaScript integrado en las páginas web. Para interactuar con una página web se provee al lenguaje JavaScript de una implementación del Document Object Model (DOM).</p>
 
 				<p>Tradicionalmente se venía utilizando en páginas web HTML para realizar operaciones y únicamente en el marco de la aplicación cliente, sin acceso a funciones del servidor. JavaScript se interpreta en el agente de usuario, al mismo tiempo que las sentencias van descargándose junto con el código HTML. Una cuarta edición está en desarrollo e incluirá nuevas características tales como paquetes, espacio de nombres y definición explícita de clases.</p>
-				
-				<h3 id="historia">Historia</h3>
 
-				<h4>Nacimiento de JavaScript</h4>
+				<h2 id="historia">Historia</h2>
+
+				<h3 id="nacimiento">Nacimiento de JavaScript</h3>
 
 				<p>JavaScript fue desarrollado originalmente por Brendan Eich de Netscape con el nombre de Mocha, el cual fue renombrado posteriormente a LiveScript, para finalmente quedar como JavaScript. El cambio de nombre coincidió aproximadamente con el momento en que Netscape agregó compatibilidad con la tecnología Java en su navegador web Netscape Navigator en la versión 2.002 en diciembre de 1995. La denominación produjo confusión, dando la impresión de que el lenguaje es una prolongación de Java, y se ha caracterizado por muchos como una estrategia de mercadotecnia de Netscape para obtener prestigio e innovar en el ámbito de los nuevos lenguajes de programación web.</p>
 
@@ -65,53 +117,52 @@
 
 				<p>En 1997 los autores propusieron13​ JavaScript para que fuera adoptado como estándar de la European Computer Manufacturers 'Association ECMA, que a pesar de su nombre no es europeo sino internacional, con sede en Ginebra. En junio de 1997 fue adoptado como un estándar ECMA, con el nombre de ECMAScript. Poco después también como un estándar ISO.</p>
 
-				<h4>JavaScript en el lado servidor</h4>
+				<h3 id="servidor">JavaScript en el lado servidor</h3>
 				Netscape introdujo una implementación de script del lado del servidor con Netscape Enterprise Server, lanzada en diciembre de 1994 (poco después del lanzamiento de JavaScript para navegadores web).14​15​ A partir de mediados de la década de los 2000, ha habido una proliferación de implementaciones de JavaScript para el lado servidor. Node.js es uno de los notables ejemplos de JavaScript en el lado del servidor, siendo usado en proyectos importantes.16​17​</p>
 
-				<h4>Desarrollos posteriores</h4>
+				<h3 id="desarrollos">Desarrollos posteriores</h3>
 				<p>JavaScript se ha convertido en uno de los lenguajes de programación más populares en internet. Al principio, sin embargo, muchos desarrolladores renegaban del lenguaje porque el público al que va dirigido lo formaban publicadores de artículos y demás aficionados, entre otras razones. La llegada de Ajax devolvió JavaScript a la fama y atrajo la atención de muchos otros programadores. Como resultado de esto hubo una proliferación de un conjunto de frameworks y librerías de ámbito general, mejorando las prácticas de programación con JavaScript, y aumentado el uso de JavaScript fuera de los navegadores web, como se ha visto con la proliferación de entornos JavaScript del lado del servidor. En enero de 2009, el proyecto CommonJS fue inaugurado con el objetivo de especificar una librería para uso de tareas comunes principalmente para el desarrollo fuera del navegador web.</p>
 
 				<p>En junio de 2015 se cerró y publicó el estándar ECMAScript 620​21​ con un soporte irregular entre navegadores22​ y que dota a JavaScript de características avanzadas que se echaban de menos y que son de uso habitual en otros lenguajes como, por ejemplo, módulos para organización del código, verdaderas clases para programación orientada a objetos, expresiones de flecha, iteradores, generadores o promesas para programación asíncrona.</p>
 
 				<p>La versión 7 de ECMAScript se conoce como ECMAScript 2016, y es la última versión disponible, publicada en junio de 2016. Se trata de la primera versión para la que se usa un nuevo procedimiento de publicación anual y un proceso de desarrollo abierto.</p>
 
-				<h4>Nacimiento de JavaScript</h4>
 
-				<h3 id="caracteristicas">Características</h3>
+				<h2 id="caracteristicas">Características</h2>
 
 				<p>Las siguientes características son comunes a todas las implementaciones que se ajustan al estándar ECMAScript, a menos que especifique explícitamente en caso contrario.</p>
 
-				<h4>Imperativo y estructurado</h4>
+				<h3 id="impeEstru">Imperativo y estructurado</h3>
 
 				<p>JavaScript es compatible con gran parte de la estructura de programación de C (por ejemplo, sentencias if, bucles for, sentencias switch, etc.). Con una salvedad, en parte: en C, el ámbito de las variables alcanza al bloque en el cual fueron definidas; sin embargo JavaScript no es compatible con esto, puesto que el ámbito de las variables es el de la función en la cual fueron declaradas. Esto cambia con la versión de ECMAScript 2015, ya que añade compatibilidad con block scoping por medio de la palabra clave let. Como en C, JavaScript hace distinción entre expresiones y sentencias. Una diferencia sintáctica con respecto a C es la inserción automática de punto y coma, es decir, en JavaScript los puntos y coma que finalizan una sentencia pueden ser omitidos.</p>
 
-				<h4>Dinámico</h4>
+				<h3 id="dinamico">Dinámico</h3>
 
-				<h5>Tipado dinámico</h5>
+				<h4 id="tipadoDinamico">Tipado dinámico</h4>
 
 				<p>Como en la mayoría de lenguajes de scripting, el tipo está asociado al valor, no a la variable. Por ejemplo, una variable x en un momento dado puede estar ligada a un número y más adelante, religada a una cadena. JavaScript es compatible con varias formas de comprobar el tipo de un objeto, incluyendo duck typing.26​ Una forma de saberlo es por medio de la palabra clave typeof.</p>
 
-				<h5>Objetual</h5>
+				<h4 id="objetual">Objetual</h4>
 
 				<p>JavaScript está formado casi en su totalidad por objetos. Los objetos en JavaScript son arrays asociativos, mejorados con la inclusión de prototipos (ver más adelante). Los nombres de las propiedades de los objetos son claves de tipo cadena: obj.x = 10 y obj['x'] = 10 son equivalentes, siendo azúcar sintáctico la notación con punto. Las propiedades y sus valores pueden ser creados, cambiados o eliminados en tiempo de ejecución. La mayoría de propiedades de un objeto (y aquellas que son incluidas por la cadena de la herencia prototípica) pueden ser enumeradas a por medio de la instrucción de bucle for... in. JavaScript tiene un pequeño número de objetos predefinidos como son Function y Date.</p>
 
-				<h5>Evaluación en tiempo de ejecución</h5>
+				<h4 id="evaluaEjecu">Evaluación en tiempo de ejecución</h4>
 
 				<p>JavaScript incluye la función eval que permite evaluar expresiones expresadas como cadenas en tiempo de ejecución. Por ello se recomienda que eval sea utilizado con precaución y que se opte por utilizar la función JSON.parse() en la medida de lo posible, pues resulta mucho más segura.</p>
 
-				<h4>Funcional</h4>
+				<h3 id="funcional">Funcional</h3>
 
-				<h5>Funciones de primera clase</h5>
+				<h4 id="funcionalP">Funciones de primera clase</h4>
 
 				<p>A las funciones se les suele llamar ciudadanos de primera clase; son objetos en sí mismos. Como tal, poseen propiedades y métodos, como .call() y .bind().27​ Una función anidada es una función definida dentro de otra. Esta es creada cada vez que la función externa es invocada. Además, cada función creada forma una clausura; es el resultado de evaluar un ámbito conteniendo en una o más variables dependientes de otro ámbito externo, incluyendo constantes, variables locales y argumentos de la función externa llamante. El resultado de la evaluación de dicha clausura forma parte del estado interno de cada objeto función, incluso después de que la función exterior concluya su evaluación.</p>
 
-				<h4>Prototípico</h4>
+				<h3 id="prototipico">Prototípico</h3>
 
-				<h5>Prototipos</h5>
+				<h4 id="prototipos">Prototipos</h4>
 
 				<p>JavaScript usa prototipos en vez de clases para el uso de herencia.29​ Es posible llegar a emular muchas de las características que proporcionan las clases en lenguajes orientados a objetos tradicionales por medio de prototipos en JavaScript.</p>
 
-				<h5>Funciones como constructores de objetos</h5>
+				<h4 id="funciones">Funciones como constructores de objetos</h4>
 
 				<p>Las funciones también se comportan como constructores. Prefijar una llamada a la función con la palabra clave new crear una nueva instancia de un prototipo, que heredan propiedades y métodos del constructor (incluidas las propiedades del prototipo de Object).​ ECMAScript 5 ofrece el método Object.create, permitiendo la creación explícita de una instancia sin tener que heredar automáticamente del prototipo de Object (en entornos antiguos puede aparecer el prototipo del objeto creado como null). La propiedad prototype del constructor determina el objeto usado para el prototipo interno de los nuevos objetos creados. Se pueden añadir nuevos métodos modificando el prototipo del objeto usado como constructor. Constructores predefinidos en JavaScript, como Array u Object, también tienen prototipos que pueden ser modificados. Aunque esto sea posible se considera una mala práctica modificar el prototipo de Object ya que la mayoría de los objetos en Javascript heredan los métodos y propiedades del objeto prototype, objetos los cuales pueden esperar que estos no hayan sido modificados.</p>
 
