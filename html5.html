@@ -25,6 +25,20 @@
 		<section id="presentacion">
 			<h1>Curso profesional de paginas web</h1>
 		</section>
+		<div>
+			<h2>Indice</h2>
+			<ol>
+				<li>
+					<a href="#nuevosElementos">Nuevos Elementos</a>
+				</li>
+				<li>
+					<a href="#novedades">Novedades</a>
+				</li>
+				<li>
+					<a href="#webSemantica">Web Semántica</a>
+				</li>
+			</ol>
+		</div>
 		<section id="contenido">
 			<h6 class="ocultar">Contenido Relevante de la Web</h6><!--La W3C indica que dentro de un section debe existir una etiqueta de enunciado, por lo que recomiendan emplear desde h2 hasta h6 para estas situaciones-->
 			<article class="articulo"><!--ERROR: Selector id: este solo puede emplearse para orientar un solo elemento a la vez; ya existian otros selectores id con el mismo valor de atributo en el codigo HTML,SOLUCION: cambie el selector id por un selector class en esta etiqueta ya que estos pueden utilizarse para darle el mismo estilo a un conjunto de elementos-->
@@ -36,13 +50,13 @@
 
 				<p>El desarrollo de este lenguaje de marcado es regulado por el Consorcio W3C.</p>
 
-				<h3>Nuevos Elementos</h3>
+				<h3 id="nuevosElementos">Nuevos Elementos</h3>
 
 				<p>HTML5 establece una serie de nuevos elementos y atributos que reflejan el uso típico de los sitios web modernos. Algunos de ellos son técnicamente similares a las etiquetas div y span, pero tienen un significado semántico, como por ejemplo nav (bloque de navegación del sitio web) y footer. Otros elementos proporcionan nuevas funcionalidades a través de una interfaz estandarizada, como los elementos audio y video.</p>
 
 				<blockquote><p>"Al no ser reconocido en viejas versiones de navegadores por sus nuevas etiquetas, se le recomienda al usuario común actualizar a la versión más nuva, para poder disfrutar de todo el potencial que provee HTML5."</p></blockquote>
 
-				<h3>Novedades</h3>
+				<h3 id="novedades">Novedades</h3>
 
 				<p>Incorpora etiquetas (canvas 2D y 3D, audio, vídeo) con codecs para mostrar los contenidos multimedia. Actualmente hay una lucha entre imponer codecs libres (WebM + VP8) o privados (H.264/MPEG-4 AVC).
 				Etiquetas para manejar grandes conjuntos de datos: Datagrid, Details, Menu y Command. Permiten generar tablas dinámicas que pueden filtrar, ordenar y ocultar contenido en cliente.
@@ -50,7 +64,7 @@
 				Visores: MathML (fórmulas matemáticas) y SVG (gráficos vectoriales). En general se deja abierto a poder interpretar otros lenguajes XML.
 				Drag & Drop. Nueva funcionalidad para arrastrar objetos como imágenes.</p>
 
-				<h3>Web Semántica</h3>
+				<h3 id="webSemantica">Web Semántica</h3>
 
 				<p>Añade etiquetas para manejar la Web semántica (Web 3.0): header, footer, article, nav, time (fecha del contenido), link rel=‘’ (tipo de contenido que se enlaza).
 				Estas etiquetas permiten describir cuál es el significado del contenido. Por ejemplo su importancia, su finalidad y las relaciones que existen. No tienen especial impacto en la visualización, se orientan a buscadores.

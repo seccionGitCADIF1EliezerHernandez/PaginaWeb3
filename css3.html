@@ -25,6 +25,23 @@
 		<section id="presentacion">
 			<h1>Curso profesional de paginas web</h1>
 		</section>
+		<div>
+			<h2>Indice</h2>
+			<ol>
+				<li>
+					<a href="#sintaxis">Sintaxis</a>
+				</li>
+				<li>
+					<a href="#caracteristicasP">Cacteristicas Principales</a>
+				</li>
+				<li>
+					<a href="#ventajas">Ventajas</a>
+				</li>
+				<li>
+					<a href="#desventajas">Desventajas</a>
+				</li>
+			</ol>
+		</div>
 		<section id="contenido">
 			<h6 class="ocultar">Contenido Relevante de la Web</h6><!--La W3C indica que dentro de un section debe existir una etiqueta de enunciado, por lo que recomiendan emplear desde h2 hasta h6 para estas situaciones-->
 			<article class="articulo"><!--ERROR: Selector id: este solo puede emplearse para orientar un solo elemento a la vez; ya existian otros selectores id con el mismo valor de atributo en el codigo HTML,SOLUCION: cambie el selector id por un selector class en esta etiqueta ya que estos pueden utilizarse para darle el mismo estilo a un conjunto de elementos-->
@@ -34,13 +51,13 @@
 
 				<p>La información de estilo puede ser adjuntada como un documento separado o en el mismo documento HTML. En este último caso podrían definirse estilos generales en la cabecera del documento o en cada etiqueta particular mediante el atributo "style".</p>
 
-				<h3>Sintaxis</h3>
+				<h3 id="sintaxis">Sintaxis</h3>
 
 				<p><strong>CSS</strong> tiene una sintaxis muy sencilla, que usa unas cuantas palabras clave tomadas del inglés para especificar los nombres de varias propiedades de estilo. Una hoja de estilo se compone de una lista de reglas. Cada regla o conjunto de reglas consiste en uno o más selectores y un bloque de declaración (o "bloque de estilo") con los estilos a aplicar para los elementos del documento que cumplan con el selector que les precede. Cada bloque de estilos se define entre llaves, y está formado por una o varias declaraciones de estilo con el formato propiedad:valor;.</p><!--cerre esta etiqueta de cierre ya que no estaba cerrada-->
 
 				<p>En el CSS, los selectors marcarán qué elementos se verán afectados por cada bloque de estilo que les siga, pudiendo afectar a uno o varios elementos a la vez, en función de su tipo, nombre (name), ID, clase (class), posición dentro del Document Object Model, etcétera.</p>
 
-				<h3>características principales de css3</h3>
+				<h3 id="caracteristicasP">Características principales de css3</h3>
 
 				<p>1. Atributo gradiente de colores en borde con CSS y Firefox: Posibilidad de definir el un gradiente de color en el borde de los elementos con CSS, en un atributo no estándar de Firefox. </p>
 
@@ -68,7 +85,7 @@
 
 				<p>13. Sombras en el texto con text-shadow de CSS: Cómo aplicar sombras y otros efectos en los textos con CSS y el atributo text-shadow.</p> 
 
-				<h3>Ventajas</h3>
+				<h3 id="ventajas">Ventajas</h3>
 
 				<p>Control centralizado de la presentación de un sitio web completo con lo que se agiliza de forma considerable la actualización del mismo.</p>
 
@@ -78,7 +95,7 @@
 
 				<p>Mejora en la accesibilidad del documento, pues con el uso del CSS se evitan antiguas prácticas necesarias para el control del diseño (como las tablas), y que iban en perjuicio de ciertos usos de los documentos, por parte de navegadores orientados a personas con algunas limitaciones sensoriales.</p>
 
-				<h3>Desventajas</h3>
+				<h3 id="desventajas">Desventajas</h3>
 				<p>Existen limitaciones que CSS 2.x todavía no permite, por ejemplo, la alineación vertical de capas, las sombras, los bordes redondeados…</p>
 				<p>El uso de las tablas nos permitía crear diseños complejos de forma mucho más sencilla que utilizando CSS, aunque CSS3 está intentando facilitar dicho trabajo</p>. 
 				<p>A veces, dependiendo del navegador (Acid tests), la página que ha sido maquetada con CSS puede verse distinta (Aunque, si hemos seguido los estándares web de forma correcta, el problema es del navegador).</p>
